@@ -10,10 +10,10 @@ The initial scope targets a single county (Kajiado or Nairobi TBD).
 
 **In scope (MVP)**
 - Binary or multi-class semantic segmentation of satellite imagery (built-up, vegetation, water, bare soil, cropland)
-- Change detection between two user-selected timestamps
+- Change detection between timestamps
 - Intersection of detected change with protected area and riparian zone shapefiles
 - Visual output showing before/after masks and flagged encroachment zones
-- A simple browser-based interface for region and date selection
+- A simple browser-based interface for region selection
 
 **Out of scope (MVP)**
 - Real-time or automated satellite data ingestion
@@ -36,6 +36,9 @@ The initial scope targets a single county (Kajiado or Nairobi TBD).
 | Riparian zones | Derived from river shapefiles + buffer | Approximate band on either side of water bodies |
 
 Training data selection must account for geographic leakage — chips from the target test county should be held out of training and validation entirely.
+
+### Sources (Updated):
+- downloaded 4 lulc shapefiles from this ([undp dataset '10m Annual Land Use Land Cover (9-class'](https://geohub.data.undp.org/api/datasets/ffdee6dc36a27769c79d8ef6e9ccc7da))
 
 ## Methodology
 
