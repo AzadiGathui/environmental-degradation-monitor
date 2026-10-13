@@ -1,5 +1,5 @@
 # working files
-./data/raw
+data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -219,3 +219,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Editor/tooling
+.claude/

@@ -1,0 +1,26 @@
+# Core geo / raster
+rasterio>=1.3
+geopandas>=0.14
+shapely>=2.0
+
+# Satellite imagery download
+sentinelhub>=3.10
+
+# Deep learning (CPU build — swap for tensorflow[and-cuda] on GPU)
+tensorflow-cpu>=2.15
+
+# Streamlit + map widget
+streamlit>=1.35
+streamlit-folium>=0.20
+folium>=0.16
+
+# Image handling
+Pillow>=10.0
+numpy>=1.24
+
+# Env var management
+python-dotenv>=1.0
+
+# Notebook utilities (kept for notebook work)
+pandas>=2.0
+matplotlib>=3.7
